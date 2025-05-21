@@ -1,3 +1,5 @@
+import { Client } from "pg";
+
 /** @returns the employee created according to the provided details */
 export async function createEmployee({ name, birthday, salary }) {
   const result = await client.query(
