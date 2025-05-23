@@ -7,9 +7,7 @@ await db.end();
 console.log("🌱 Database seeded.");
 
 async function seedEmployees() {
-  await client.connect()
-
   await createEmployee("Spongebob", '1986-07-14', 1)
+  // create 9 more employees for database
 
-  await client.end()
 }
