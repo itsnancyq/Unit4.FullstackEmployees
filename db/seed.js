@@ -17,6 +17,4 @@ async function seedEmployees() {
   await createEmployee({name: "JoJo Joestar", birthday: '1975-02-19', salary: 350})
   await createEmployee({name: "Finn the Human", birthday: '2001-06-20', salary: 800})
   await createEmployee({name: "Taylor Swift", birthday: '1989-12-13', salary: 13000})
-}
-
-// seed database look @ class demno 1:03:00
+};
